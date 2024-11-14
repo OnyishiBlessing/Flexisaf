@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header .filter {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  border-radius: 10px;
+  padding: 12px 10px;
+  gap: 10px;
+  align-items: center;
+  min-width: 300px;
+}
+
+.filter svg {
+  font-weight: 300;
+}
+
+header .filter input {
+  outline: none;
+  border: none;
+  font-size: 13px;
+}
+
+header div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.container .arrivals h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.container .bubas span {
+  font-weight: 800;
+}
+
+.bubas {
+  display: flex;
+  gap: 7px;
+}
+
+.arrivals,
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.arrivals .stepout {
+  width: 80%;
+}
+
+.product .tab {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.tab p {
+  padding-inline: 15px;
+  font-size: 13px;
+  font-weight: 550;
+  padding-bottom: 4px;
+}
+
+.tab p:first-child {
+  border-bottom: 1px solid #111;
+}
+
+button.filter {
+  width: 150px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 30px;
+  background-color: inherit;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+}
+
+.products {
+  display: flex;
+  gap: 40px;
+}
+
+.product .products div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product .products div p {
+  font-size: 14px;
+}
+
+.product .products div b {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.products img {
+  width: 100%;
+}
